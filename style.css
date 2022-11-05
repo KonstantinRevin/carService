@@ -66,6 +66,10 @@ body{
     font-size: 14px;
     background-color: rgb(101, 30, 233);
 }
-img{
-    
-}
+
+  @media (max-width: 576px) { 
+
+    .image-slider__image{
+        margin-top: 230px;
+     }
+ }
