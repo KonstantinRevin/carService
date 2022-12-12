@@ -1,0 +1,1 @@
+document.querySelector(".services-accordion").addEventListener("click",(e=>{e.target.closest(".services-accordion__item")&&e.target.closest(".services-accordion__item").classList.toggle("services-accordion__item--active")})),swiper=new Swiper(".slider",{pagination:{el:".swiper-pagination"},loop:!0,slidesPerView:3,clicable:!0});
